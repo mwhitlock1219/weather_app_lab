@@ -1,6 +1,6 @@
 {
   "name": "@melina_whitlock/weather_app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "weather app using zip code",
   "main": "script.js",
   "scripts": {
