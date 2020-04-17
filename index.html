@@ -25,11 +25,14 @@
       <div class="col-md-6 col-xs-8 col-xs-push-2 col-md-push-3">
 
         <div class="weather text-center"><!--weather display-->
-          <h2>Weather Details will go in Here</h2>
 
-          <input id="zipCode"/>
-          <input type="submit" value="Zip Code" onclick="printweather()"/>
 
+          <div id="showWeatherForcast"></div>
+
+          <div>
+            <input id="zip"/>
+            <button id="getWeatherForcast">Get Weather</button>
+          </div>
 
         </div><!--weather display-->
 
@@ -54,7 +57,7 @@
 
 
   <!-- jquery and bootstrap js files cdn -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
   integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
   crossorigin="anonymous"></script>
