@@ -10,16 +10,13 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <!-- style.css file -->
   <link rel="stylesheet" href="style.css">
-  <!-- jquery and bootstrap js files cdn -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-  integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
-  crossorigin="anonymous"></script>
+  
+  
 </head>
 
 <body>
 
- <!--  <div class="container">
+  <div class="container">
     <div id="heading">
       <h1 class="text-center">Weather App</h1>
     </div>
@@ -27,26 +24,43 @@
     <div class="row">
       <div class="col-md-6 col-xs-8 col-xs-push-2 col-md-push-3">
 
-        <div class="weather text-center">
+        <div class="weather text-center"><!--weather display-->
+          <h2>Weather Details will go in Here</h2>
 
-          <h2 class="temp"></h2>
-          <h3><span class="city"></span>, <span class="country"></span></h3>
+          <input id="zipCode"/>
+          <input type="submit" value="Zip Code" onclick="printweather()"/>
 
-          <div class="iconpic">
-            <img src="" class='img img-responsive center-block'>
-          </div>
 
-          <h4 class="weatherDetail"></h4>
-          
-          <div class="toggle" id="c">
-            <button type="button" class="btn btn-danger btn-lg">Toggle temperature</button>
-          </div>
+        </div><!--weather display-->
 
-        </div>--><!--weather display-->
-     <!--  </div> -->
-  <!--   </div> --><!--whole row-->
- <!--  </div> --> 
-<!--script.js file -->
+        <br>
+        <br>
+
+          <div class="moment text-center">
+
+            <h2> Moment Date</h2>
+            <!-- container for Moment.js output -->
+            <div id="displayMoment"></div>
+
+            <h2>JavaScript Date</h2>
+            <!-- container for JavaScript Date output -->
+            <div id="displayJsDate"></div>
+
+          </div><!--moment display-->
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- jquery and bootstrap js files cdn -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+  integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+  crossorigin="anonymous"></script>
+  <!-- reference Moment.js library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" type="text/javascript"></script>
+  <!--script.js file -->
   <script src="script.js"></script>
 
 </body>
