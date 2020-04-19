@@ -1,6 +1,6 @@
 {
   "name": "@melina_whitlock/weather_app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "weather app using zip code",
   "main": "script.js",
   "scripts": {
@@ -10,7 +10,9 @@
   "author": "Melina Whitlock",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.28",
+    "zipcode-to-timezone": "0.0.9"
   },
   "devDependencies": {},
   "repository": {
